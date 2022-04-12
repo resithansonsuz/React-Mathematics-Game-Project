@@ -3,7 +3,24 @@
 
 *My Mathematics-Game Project*
 
+*Introduction Section*
+![banner resmi](public/screenshoots/StartPage.png)
 
-![banner resmi](public/StartPage.png)
+<hr>
+<hr>
 
-![banner resmi](public/QuestionsPage.png)
+*Processing Section*
+
+![banner resmi](public/screenshoots/QuestionPage.png)
+![banner resmi](public/screenshoots/QuestionPageTrue.png)
+![banner resmi](public/screenshoots/QuestionPageFalse.png)
+
+<hr>
+<hr>
+
+*Conclusion Section*
+
+![banner resmi](public/screenshoots/LocalStroage.png)
+
+<hr>
+<hr>
