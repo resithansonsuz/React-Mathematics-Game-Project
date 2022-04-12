@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  cursor: crosshair;
+  
+}
+body{
+  background: #2D2D2D;
+}
+h1{
+  color: #FF0000;
+}
+span{
+  color: #FFFFFF;
+}
+a{
+  color: #FFFFFF;
+}
+.Line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ++++++++++++++++++++++++++++----  START PAGE  -----+++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.startPage{
+  margin-top: 4%;
+}
+ .TransitionButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .TransitionButtons svg{
+  position: relative;
+}
+  .TransitionButtons a{
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 85px;
+}
+
+.Detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Detail span{
+  font-family: 'Handlee';
+  font-size: 48px;
+  line-height: 64px;
+  font-style: normal;
+}
+ .Title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startPage section{
+  padding:2% 0;
+}
+ .Detail{
+  padding: 1.5% 0;
+}
+ .Title h1{
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 109px;
+}
+/* ++++++++++++++++++++++++++++----  QUESTİONS PAGE  -----++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.questionsPage{
+  display: flex;
+  flex-direction: row;
+}
+ .question-left{
+   margin-top: 5%;
+   margin-left: 6%;
+ }
+ .question-right{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+ .right-top{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   width: 100%;
+ }
+
+ .instructions{
+   display: flex;
+   flex-direction: row ;
+   justify-content: space-around;
+  margin-top: 4%;
+   width: 100%;
+ }
+
+.answer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+.answer1{
+  left:25%;
+  top:15%;
+  
+}
+.answer2{
+  left: 65%;
+  top:35%;
+  
+}
+.answer3{
+  left:35%;
+  top:55%;
+
+}
+
+ .AnswerButtons{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AnswerButtons svg{
+  position: relative;
+}
+ .AnswerButtons span{
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 85px;
+  cursor: help;
+} 
+
+.AnswerButtons span:visited {
+  color: white;
+}
+.AnswerButtons span:hover {
+  color: blue;
+}
+
+.questionsPage{
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size:  96px;
+  line-height: 171px;
+}
+
+
+ .QuestionSide{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QuestionSide svg{
+  position: relative;
+}
+.QuestionSide span{
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 85px;
+  left: 7%;
+  top:25%
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++----  CONCLUSİON PAGE  -----+++++++++++++++++++++++++++++++++++++++++++++++++*/
+.conclusionPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  padding-top: 5%;
+}
+
+.instantScore{
+  margin-top: 5%;
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  }
+
+.AllLine
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.AllLine span{
+  font-family: 'Handlee';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 45px;
+}
+.questionCheck{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 58%;
+}
