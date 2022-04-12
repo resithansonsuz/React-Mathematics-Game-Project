@@ -1,7 +1,14 @@
-
 # week4-assignment
 
 *My Mathematics-Game Project*
+
+<hr>
+<hr>
+
+The live version of the project is the link here  <a href="https://patika-week4-mathematics-game-project-6dyuxh5xj-resithansonsuz.vercel.app/" target="_blank">Click</a> .
+
+<hr>
+<hr>
 
 *Introduction Section*
 ![banner resmi](public/screenshoots/StartPage.png)
